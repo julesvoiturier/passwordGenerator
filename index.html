@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/style/app.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="container">
+        <div id="title">Password Generator</div>
+        <div id="passwordDisplay">
+            <div id="password"></div>
+            <button id="clipboard"><img id="clipboardimg" src="./public/src/img/clipBoard.png" alt=""></button>
+        </div>
+        <div>
+            <p>Password length</p>
+            <input type="number" name value max="20" min="4" />
+        </div>
+        <div>
+            <p>Include uppercase letters</p>
+            <input type="checkbox">
+        </div>
+        <div>
+            <p>Include lowercase letters</p>
+            <input type="checkbox">
+        </div>
+        <div>
+            <p>Include numbers</p>
+            <input type="checkbox">
+        </div>
+        <div>
+            <p>Include symbols</p>
+            <input type="checkbox">
+        </div>
+        <button id="generate">Generate password</button>
+    </div>
+
+
+    <script src="./public/js/main.js"></script>
+</body>
+</html>
